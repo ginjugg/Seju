@@ -1,0 +1,6 @@
+[submodule "LeagueStats"]
+	path = LeagueStats
+	url = https://github.com/ginjugg/LeagueStats
+[submodule "rune-maker"]
+	path = rune-maker
+	url = https://github.com/ginjugg/rune-maker
