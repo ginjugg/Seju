@@ -1,0 +1,59 @@
+{
+  "name": "seju",
+  "version": "0.0.1",
+  "private": true,
+  "description": "An Open Source Third Party App for League of Legends. View player- and championstats, import Runes and Items and analyze Live Games! ",
+  "main": "out/main/index.js",
+  "scripts": {
+    "build": "tsc && electron-vite build",
+    "start": "electron-vite preview",
+    "dev": "electron-vite dev",
+    "prebuild": "electron-vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginjugg/Seju.git"
+  },
+  "keywords": [
+    "league",
+    "of",
+    "linux",
+    "league",
+    "of",
+    "legends"
+  ],
+  "author": "Ginju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginjugg/Seju/issues"
+  },
+  "homepage": "https://github.com/ginjugg/Seju#readme",
+  "devDependencies": {
+    "@electron-toolkit/tsconfig": "^1.0.1",
+    "@electron-toolkit/utils": "^3.0.0",
+    "@tailwindcss/forms": "^0.5.6",
+    "@types/electron": "^1.6.10",
+    "@types/node": "^20.10.6",
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.0",
+    "electron": "^28.1.0",
+    "electron-toolkit": "^1.0.1",
+    "electron-vite": "^1.0.29",
+    "eslint": "^7.32.0",
+    "portal-vue": "^2.1.7",
+    "postcss": "^8.4.31",
+    "postcss-import": "^16.0.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3.3.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.8.3",
+    "vue": "^2.7.14",
+    "vue-content-loader": "^0.2.3",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.6.5",
+    "vue-sticky-sidebar": "^1.0.5",
+    "vuex": "^3.6.2"
+  }
+}
