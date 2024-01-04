@@ -4,11 +4,9 @@ import vue from '@vitejs/plugin-vue2'
 
 export default defineConfig({
   main: {
-    base: resolve('./testmain/'),
     plugins: [externalizeDepsPlugin()]
   },
   preload: {
-    base: resolve('./preload/'),
     plugins: [externalizeDepsPlugin()],
     resolve: {
       alias: {
@@ -19,11 +17,11 @@ export default defineConfig({
     },
   },
   renderer: {
-    base: resolve('./testrenderer/'),
     resolve: {
       alias: {
         '@renderer': resolve('src/renderer/src'),
         '/img': resolve('resources/public/img'),
+        '@resources': resolve('resources'),
         '@': resolve('src/renderer/src')
       }
     },
