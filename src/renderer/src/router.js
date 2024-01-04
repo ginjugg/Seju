@@ -45,11 +45,11 @@ const router = new Router({
       name: 'summonerLive',
       component: () => import('@/views/SummonerLive.vue'),
     },
-    /*{
+    {
       path: '/summoner/:region/:name/opgg',
       name: 'summonerOPGG',
       component: () => import('@/views/SummonerOPGG.vue'),
-    },*/
+    },
   ],
 })
 
